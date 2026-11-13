@@ -8,9 +8,14 @@ Camera hand tracking, floating islands, weather and visual effects.
 
 ## Setup
 
-Requires macOS, a camera, and Apple developer tools. The Swift application source is in `Source/`. Grant camera access when you first start the camera.
+Requires an Apple Silicon Mac with macOS 14 or later, a camera, and Apple developer command-line tools.
 
-The application uses SwiftUI, SceneKit, Vision, AVFoundation and Metal. A standalone installer is not included.
+```sh
+./build.sh
+open "build/Prism.app"
+```
+
+Click Start camera and allow camera access when macOS asks. Camera frames are processed locally.
 
 ## Controls
 
